@@ -99,9 +99,6 @@ function Soumission() {
         </div>
       </div>
 
-
-
-
       <div className="soumission-grid">
         <div className="soumission-card">
           <div className="soumission-card-head">
@@ -156,7 +153,7 @@ function Soumission() {
 
       <div style={{ background: "white", border: "1px solid var(--border-c)", borderRadius: 16, padding: 36, marginTop: 40 }}>
         <div className="section-label">Normes de rédaction</div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 24, marginTop: 16 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", gap: 24, marginTop: 16 }}>
           <div className="format-rules" style={{ margin: 0 }}>
             <h4>📄 Résumé</h4>
             <ul>
@@ -165,15 +162,6 @@ function Soumission() {
               <li>Objectif, méthode, résultats, conclusion</li>
               <li>4 mots-clés maximum</li>
               <li>3 à 5 références bibliographiques</li>
-            </ul>
-          </div>
-          <div className="format-rules" style={{ margin: 0 }}>
-            <h4>📝 Article complet</h4>
-            <ul>
-              <li>Titre : Times New Roman 14pt</li>
-              <li>Auteurs & adresses : Times New Roman 10pt</li>
-              <li>Axe de communication mentionné</li>
-              <li>Normes bibliographiques respectées</li>
             </ul>
           </div>
           <div className="format-rules" style={{ margin: 0 }}>
