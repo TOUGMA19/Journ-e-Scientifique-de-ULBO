@@ -142,6 +142,12 @@ function Lieu() {
           <li>Inscription au secrétariat du séminaire</li>
           <li>Accueil et remise des badges à l'entrée</li>
         </ul>
+        <p><strong>Recommandations</strong></p>
+        <ul style={{ lineHeight: 1.9, paddingLeft: 20 }}>
+          <li>Prévoir une tenue adaptée au climat tropical sec</li>
+          <li>Se munir d'une pièce d'identité valide</li>
+          <li>Arriver 15 minutes avant le début des sessions</li>
+        </ul>
       </div>
     </div>
   );
