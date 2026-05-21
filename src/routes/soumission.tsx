@@ -50,7 +50,7 @@ function Soumission() {
             marginBottom: 14,
           }}
         >
-          ⚠️ À télécharger avant toute soumission
+          À télécharger avant toute soumission
         </div>
         <h3
           style={{
@@ -168,11 +168,11 @@ function Soumission() {
             </ul>
           </div>
           <div className="format-rules" style={{ margin: 0 }}>
-            <h4>📝 Article complet</h4>
+            <h4>📝 Template</h4>
             <ul>
-              <li>Titre : Times New Roman 14pt</li>
-              <li>Auteurs & adresses : Times New Roman 10pt</li>
-              <li>Axe de communication mentionné</li>
+              <li>Utiliser les modeles .docx ou .tex dans l'onglet soumission</li>
+              <li>Auteurs & adresses mail</li>
+              <li>3 à 5 références bibliographiques</li>
               <li>Normes bibliographiques respectées</li>
             </ul>
           </div>
