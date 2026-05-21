@@ -50,7 +50,7 @@ function Soumission() {
             marginBottom: 14,
           }}
         >
-          À télécharger avant toute soumission
+          ⚠️ À télécharger avant toute soumission
         </div>
         <h3
           style={{
@@ -99,9 +99,6 @@ function Soumission() {
         </div>
       </div>
 
-
-
-
       <div className="soumission-grid">
         <div className="soumission-card">
           <div className="soumission-card-head">
@@ -131,7 +128,7 @@ function Soumission() {
         <div className="soumission-card">
           <div className="soumission-card-head" style={{ background: "linear-gradient(135deg,#0a2e18,var(--green))" }}>
             <h3>Option 2 — Email direct</h3>
-            <p>Soumission par envoi électronique </p>
+            <p>Soumission par envoi électronique au secrétariat</p>
           </div>
           <div className="soumission-card-body">
             <p>
@@ -156,7 +153,7 @@ function Soumission() {
 
       <div style={{ background: "white", border: "1px solid var(--border-c)", borderRadius: 16, padding: 36, marginTop: 40 }}>
         <div className="section-label">Normes de rédaction</div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 24, marginTop: 16 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", gap: 24, marginTop: 16 }}>
           <div className="format-rules" style={{ margin: 0 }}>
             <h4>📄 Résumé</h4>
             <ul>
@@ -170,7 +167,7 @@ function Soumission() {
           <div className="format-rules" style={{ margin: 0 }}>
             <h4>🌐 Langue</h4>
             <ul>
-              <li>Anglais ou Français obligatoire pour le résumé</li>
+              <li>Français obligatoire pour le résumé</li>
               <li>Première lettre du titre en majuscule</li>
               <li>Pas de point à la fin du titre</li>
               <li>Tout résumé non conforme sera rejeté</li>
