@@ -168,18 +168,9 @@ function Soumission() {
             </ul>
           </div>
           <div className="format-rules" style={{ margin: 0 }}>
-            <h4>📝 Article complet</h4>
-            <ul>
-              <li>Titre : Times New Roman 14pt</li>
-              <li>Auteurs & adresses : Times New Roman 10pt</li>
-              <li>Axe de communication mentionné</li>
-              <li>Normes bibliographiques respectées</li>
-            </ul>
-          </div>
-          <div className="format-rules" style={{ margin: 0 }}>
             <h4>🌐 Langue</h4>
             <ul>
-              <li>Français obligatoire pour le résumé</li>
+              <li>Anglais ou Français obligatoire pour le résumé</li>
               <li>Première lettre du titre en majuscule</li>
               <li>Pas de point à la fin du titre</li>
               <li>Tout résumé non conforme sera rejeté</li>
