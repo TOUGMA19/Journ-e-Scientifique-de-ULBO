@@ -170,7 +170,7 @@ function Soumission() {
           <div className="format-rules" style={{ margin: 0 }}>
             <h4>📝 Template</h4>
             <ul>
-              <li>Utiliser les modeles .docx ou .tex dans l'onglet soumission</li>
+              <li>Utiliser les modèles .docx ou .tex dédié</li>
               <li>Auteurs & adresses mail</li>
               <li>3 à 5 références bibliographiques</li>
               <li>Normes bibliographiques respectées</li>
@@ -179,7 +179,7 @@ function Soumission() {
           <div className="format-rules" style={{ margin: 0 }}>
             <h4>🌐 Langue</h4>
             <ul>
-              <li>Français obligatoire pour le résumé</li>
+              <li>Anglais ou Français obligatoire pour le résumé</li>
               <li>Première lettre du titre en majuscule</li>
               <li>Pas de point à la fin du titre</li>
               <li>Tout résumé non conforme sera rejeté</li>
