@@ -131,7 +131,7 @@ function Soumission() {
         <div className="soumission-card">
           <div className="soumission-card-head" style={{ background: "linear-gradient(135deg,#0a2e18,var(--green))" }}>
             <h3>Option 2 — Email direct</h3>
-            <p>Soumission par envoi électronique au secrétariat</p>
+            <p>Soumission par envoi électronique</p>
           </div>
           <div className="soumission-card-body">
             <p>
