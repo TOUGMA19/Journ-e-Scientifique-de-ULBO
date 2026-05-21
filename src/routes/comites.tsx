@@ -16,7 +16,7 @@ type Member = { name: string; role: string; detail: string };
 
 const organisation: Member[] = [
   { name: "Dr Emmanuel OUEDRAOGO", role: "Président du Comité d'Organisation", detail: "Coordinateur principal — Responsable de la supervision générale de l'organisation du séminaire" },
-  { name: "Dr Corneil BAKOUAN", role: "Membre", detail: "Budget, financement et Relations institutionnelles" },
+  { name: "Dr Corneille BAKOUAN", role: "Membre", detail: "Budget, financement et Relations institutionnelles" },
   { name: "Dr Salifou NIKIEMA", role: "Membre", detail: "Budget, financement et Relations institutionnelles" },
   { name: "Dr Gérard ZONGO", role: "Membre", detail: "Budget, financement et Relations institutionnelles" },
   { name: "Dr M. DJASSIBO WOBA", role: "Membre", detail: "Budget, financement et Relations institutionnelles" },
