@@ -139,7 +139,6 @@ function Lieu() {
         <h4>ℹ️ Informations importantes pour les participants</h4>
         <p><strong>Arrivée sur place</strong></p>
         <ul style={{ lineHeight: 1.9, paddingLeft: 20, marginBottom: 12 }}>
-          <li>Inscription au secrétariat du séminaire</li>
           <li>Accueil et remise des badges à l'entrée</li>
         </ul>
         <p><strong>Recommandations</strong></p>
