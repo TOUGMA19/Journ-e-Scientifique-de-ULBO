@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contact")({ component: Contact });
 const members = [
   { name: "Dr. Corneille BAKOUAN", email: "bakouancorneille@gmail.com", phone: "+226 71 91 93 40" },
   { name: "Dr. Tiatité NOUFE", email: "noufe.tiatite@gmail.com", phone: "+226 55 07 17 60" },
-  { name: "Dr. Apollinaire TOUGMA", email: "appolinaire.tougma19@gmail.com", phone: "+226 75 20 07 93" },
+  { name: "Dr. Appolinaire TOUGMA", email: "appolinaire.tougma19@gmail.com", phone: "+226 75 20 07 93" },
 ];
 
 function Contact() {
