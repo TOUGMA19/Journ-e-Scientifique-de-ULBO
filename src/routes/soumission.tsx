@@ -50,7 +50,7 @@ function Soumission() {
             marginBottom: 14,
           }}
         >
-          ⚠️ À télécharger avant toute soumission
+          À télécharger avant toute soumission
         </div>
         <h3
           style={{
