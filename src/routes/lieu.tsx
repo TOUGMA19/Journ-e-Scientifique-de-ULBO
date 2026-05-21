@@ -129,7 +129,7 @@ function Lieu() {
             <div style={{ color: "var(--text-muted)" }}>8h30 — 16h30 : Conférences plénières</div>
           </div>
           <div>
-            <strong>19 novembre 2026</strong>
+            <strong>20 novembre 2026</strong>
             <div style={{ color: "var(--text-muted)" }}>8h30 — 16h30 : Sessions parallèles et clôture</div>
           </div>
         </div>
@@ -139,14 +139,12 @@ function Lieu() {
         <h4>ℹ️ Informations importantes pour les participants</h4>
         <p><strong>Arrivée sur place</strong></p>
         <ul style={{ lineHeight: 1.9, paddingLeft: 20, marginBottom: 12 }}>
-          <li>Inscription au secrétariat du séminaire</li>
           <li>Accueil et remise des badges à l'entrée</li>
         </ul>
         <p><strong>Recommandations</strong></p>
         <ul style={{ lineHeight: 1.9, paddingLeft: 20 }}>
           <li>Prévoir une tenue adaptée au climat tropical sec</li>
-          <li>Se munir d'une pièce d'identité valide</li>
-          <li>Arriver 15 minutes avant le début des sessions</li>
+          <li>Arriver 45 minutes avant le début des sessions</li>
         </ul>
       </div>
     </div>
