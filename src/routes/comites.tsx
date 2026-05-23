@@ -23,7 +23,7 @@ const organisation: Member[] = [
   { name: "Dr Corneille BAKOUAN", role: "Membre", detail: "" },
   { name: "Dr Salifou NIKIEMA", role: "Membre", detail: "" },
   { name: "Dr Titiaté NOUFE", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Apollinaire TOUGMA", role: "Membre", detail: "" },
+  { name: "Dr Appolinaire TOUGMA", role: "Membre", detail: "" },
   { name: "Dr Stanislas SANFO", role: "Membre", detail: "" },
   { name: "Dr Ilassa OUEDRAOGO", role: "Membre", detail: "" },
   { name: "Dr Harouna WASONGMA", role: "Membre", detail: "" },
@@ -48,7 +48,7 @@ const scientifique: Member[] = [
   { name: "Dr Titiaté NOUFE", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
   { name: "Dr Boukary BORO", role: "Membre", detail: "Maître de Conférences (MC)" },
   { name: "Dr Stéphane KY", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Apollinaire TOUGMA", role: "Membre", detail: "" },
+  { name: "Dr Appolinaire TOUGMA", role: "Membre", detail: "" },
   { name: "Dr Stanislas SANFO", role: "Membre", detail: "" },
   { name: "Dr Brahima SORGHO", role: "Membre", detail: "Maître de Conférences (MC)" },
 ];
