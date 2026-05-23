@@ -268,7 +268,7 @@ function Home() {
           <br />
           L'ULBO accorde une place importante à la recherche scientifique,
           particulièrement dans les domaines : du développement durable ; des
-          sciences de la santé ; de la modélisation mathématique ; des sciences
+          sciences de la santé ; des sciences et technologies ; des sciences
           sociales et humaines.
         </p>
 
