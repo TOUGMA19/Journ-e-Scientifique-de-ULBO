@@ -222,7 +222,59 @@ function Home() {
             <strong>Pr Adama OUEDA</strong>.
           </p>
         </div>
-
+{/* ── Photo du Président ── */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginTop: 48,
+            paddingTop: 32,
+            borderTop: "1px solid rgba(0,0,0,0.06)",
+          }}
+        >
+          <div
+            style={{
+              width: 140,
+              height: 140,
+              borderRadius: "50%",
+              overflow: "hidden",
+              border: "4px solid var(--gold)",
+              boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+              marginBottom: 16,
+            }}
+          >
+            <img
+              src="https://kimi-web-img.moonshot.cn/img/i1.rgstatic.net/6613d95a9ffc81a38e4248a386f53918983e5674.jpg"
+              alt="Professeur Adama OUEDA, Président de l'ULBO"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
+          </div>
+          <h4
+            style={{
+              fontFamily: "'Playfair Display', serif",
+              fontSize: 20,
+              color: "var(--text)",
+              marginBottom: 4,
+            }}
+          >
+            Pr Adama OUEDA
+          </h4>
+          <p
+            style={{
+              fontSize: 14,
+              color: "var(--muted)",
+              letterSpacing: "0.05em",
+              textTransform: "uppercase",
+            }}
+          >
+            Président de l'ULBO
+          </p>
+        </div>
         <div
           style={{
             display: "grid",
@@ -346,59 +398,6 @@ function Home() {
           </div>
         </div>
       </div>
-              {/* ── Photo du Président ── */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            marginTop: 48,
-            paddingTop: 32,
-            borderTop: "1px solid rgba(0,0,0,0.06)",
-          }}
-        >
-          <div
-            style={{
-              width: 140,
-              height: 140,
-              borderRadius: "50%",
-              overflow: "hidden",
-              border: "4px solid var(--gold)",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
-              marginBottom: 16,
-            }}
-          >
-            <img
-              src="https://kimi-web-img.moonshot.cn/img/i1.rgstatic.net/6613d95a9ffc81a38e4248a386f53918983e5674.jpg"
-              alt="Professeur Adama OUEDA, Président de l'ULBO"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-            />
-          </div>
-          <h4
-            style={{
-              fontFamily: "'Playfair Display', serif",
-              fontSize: 20,
-              color: "var(--text)",
-              marginBottom: 4,
-            }}
-          >
-            Pr Adama OUEDA
-          </h4>
-          <p
-            style={{
-              fontSize: 14,
-              color: "var(--muted)",
-              letterSpacing: "0.05em",
-              textTransform: "uppercase",
-            }}
-          >
-            Président de l'ULBO
-          </p>
-        </div>
       
       <div className="cta-dark">
         <div style={{ maxWidth: 600, margin: "0 auto" }}>
