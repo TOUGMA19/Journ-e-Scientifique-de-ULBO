@@ -222,7 +222,7 @@ function Home() {
             <strong>Pr Adama OUEDA</strong>.
           </p>
         </div>
-{/* ── Photo du Président ── */}
+        {/* ── Photo du Président ── */}
         <div
           style={{
             display: "flex",
@@ -245,7 +245,7 @@ function Home() {
             }}
           >
             <img
-              src="https://kimi-web-img.moonshot.cn/img/i1.rgstatic.net/6613d95a9ffc81a38e4248a386f53918983e5674.jpg"
+              src="/images/adama-oueda.jpg"
               alt="Professeur Adama OUEDA, Président de l'ULBO"
               style={{
                 width: "100%",
