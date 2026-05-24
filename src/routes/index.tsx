@@ -286,7 +286,7 @@ function Home() {
         >
           <div className="objective-card" style={{ borderTop: "3px solid var(--green)" }}>
             <div className="objective-icon">🎓</div>
-            <h4>14 filières</h4>
+            <h4>14 filières réparties sur 3 établissements</h4>
             <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
               UFR Sciences et Technologies (UFR-ST), UFR Sciences de la Santé (UFR-SS) et
               Institut de Formation et de Perfectionnement aux Métiers (IFPM).
