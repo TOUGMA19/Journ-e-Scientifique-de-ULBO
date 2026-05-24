@@ -198,130 +198,133 @@ function Home() {
         <h2 className="section-title">
           Université Lédéa Bernard OUÉDRAOGO (ULBO)
         </h2>
-        <p className="section-lead">
-          L'Université Lédéa Bernard Ouédraogo (ULBO), anciennement appelée
-          Université de Ouahigouya, est une université publique située à
-          Ouahigouya, dans la région du Yaadga au Burkina Faso. Elle constitue
-          aujourd'hui l'un des pôles majeurs de formation supérieure et de
-          recherche dans le nord du pays.
-          <br />
-          <br />
-          Créée en 2010 sous forme de centre universitaire polyvalent, elle est
-          devenue une université autonome en 2017. En 2024, elle a officiellement
-          pris le nom de « Université Lédéa Bernard Ouédraogo » en hommage au
-          Dr Bernard Lédéa Ouédraogo, figure emblématique du développement
-          communautaire et fondateur des Groupements Naam.
-          <br />
-          <br />
-          <strong>Historique et dénomination</strong>
-          <br />
-          Le changement de nom de l'université a été décidé par le gouvernement
-          burkinabè afin de valoriser les grandes figures nationales ayant
-          contribué au développement du pays. Ce baptême symbolise les valeurs
-          de solidarité, d'engagement communautaire et de développement durable
-          incarnées par Bernard Lédéa Ouédraogo.
-          <br />
-          <br />
-          <strong>Missions de l'université</strong>
-          <br />
-          L'ULBO a pour principales missions :
-          <br />
-          • la formation des étudiants dans plusieurs domaines scientifiques et
-          professionnels ;
-          <br />
-          • la promotion de la recherche scientifique et de l'innovation ;
-          <br />
-          • la contribution au développement socio-économique du Burkina Faso ;
-          <br />
-          • le renforcement des compétences techniques et professionnelles des
-          jeunes.
-          <br />
-          <br />
-          L'université ambitionne de devenir un centre d'excellence académique
-          et scientifique au service du développement durable.
-          <br />
-          <br />
-          <strong>Organisation académique</strong>
-          <br />
-          L'université est structurée autour de plusieurs établissements de
-          formation, notamment :
-          <br />
-          • l'UFR Sciences et Technologies ;
-          <br />
-          • l'UFR Sciences de la Santé ;
-          <br />
-          • l'Institut de Formation et de Perfectionnement aux Métiers (IFPM).
-          <br />
-          <br />
-          Elle propose des formations de : Licence ; Master ; Doctorat.
-          <br />
-          <br />
-          <strong>Domaines de formation</strong>
-          <br />
-          Les principaux domaines de formation sont : Mathématiques et
-          informatique ; Sciences et technologies ; Santé et médecine ; Gestion
-          et management ; Comptabilité et finance ; Entrepreneuriat ; Sciences
-          juridiques et administratives.
-          <br />
-          <br />
-          <strong>Recherche et innovation</strong>
-          <br />
-          L'ULBO accorde une place importante à la recherche scientifique,
-          particulièrement dans les domaines : du développement durable ; des
-          sciences de la santé ; des sciences et technologies ; des sciences
-          sociales et humaines.
-        </p>
+
+        <div className="section-lead" style={{ maxWidth: 900, margin: "0 auto" }}>
+          <p>
+            Créée le <strong>22 octobre 2010</strong> par arrêté n°2010-389/MESSRS/SG/UO
+            sous l'appellation <em>Centre Universitaire Polytechnique de Ouahigouya (CUPO)</em>,
+            l'institution a connu une évolution significative au fil des années.
+          </p>
+          <p>
+            Elle a été par la suite érigée en université autonome le{" "}
+            <strong>30 septembre 2017</strong>, par le décret n°2017-1309/PRES/PM/MESRSI/MINEFID,
+            sous le nom de l'<em>Université de Ouahigouya (UOHG)</em>.
+          </p>
+          <p>
+            En Conseil des ministres du <strong>4 avril 2024</strong>, l'établissement a été
+            rebaptisé <strong>Université Lédéa Bernard OUEDRAOGO (ULBO)</strong>, en hommage
+            au <strong>Dr Lédéa Bernard OUEDRAOGO</strong>, figure emblématique du développement
+            rural au Burkina Faso.
+          </p>
+          <p>
+            Aujourd'hui, l'ULBO s'impose comme un pôle académique majeur dans la région du
+            Yaadga et au Burkina Faso en général. L'institution est dirigée par le{" "}
+            <strong>Pr Adama OUEDA</strong>.
+          </p>
+        </div>
 
         <div
-          style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginTop: 32 }}
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gap: 24,
+            marginTop: 40,
+          }}
           className="objectives-grid"
         >
           <div className="objective-card" style={{ borderTop: "3px solid var(--green)" }}>
             <div className="objective-icon">🎓</div>
+            <h4>14 filières</h4>
+            <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
+              UFR Sciences et Technologies (UFR-ST), UFR Sciences de la Santé (UFR-SS) et
+              Institut de Formation et de Perfectionnement aux Métiers (IFPM).
+            </p>
+          </div>
+          <div className="objective-card" style={{ borderTop: "3px solid var(--gold)" }}>
+            <div className="objective-icon">📈</div>
+            <h4>Nouveaux Masters 2025-2026</h4>
+            <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
+              Master en Gestion des Ressources Humaines (GRH) et Master en Mathématiques,
+              rejoignant le Master en Médecine déjà existant.
+            </p>
+          </div>
+          <div className="objective-card" style={{ borderTop: "3px solid var(--red)" }}>
+            <div className="objective-icon">👥</div>
+            <h4>Communauté universitaire</h4>
+            <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
+              55 personnels ATOS, 90 enseignants permanents, une centaine de vacataires et
+              près de <strong>5 000 étudiants</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: 24,
+            marginTop: 32,
+          }}
+          className="objectives-grid"
+        >
+          <div className="objective-card" style={{ borderTop: "3px solid var(--green)" }}>
+            <div className="objective-icon">🎯</div>
             <h4>Mission</h4>
-            <p
-              style={{
-                fontSize: 14,
-                color: "var(--muted)",
-                lineHeight: 1.6,
-                marginTop: 8,
-              }}
-            >
-              Former des cadres compétents, produire et diffuser des
-              connaissances scientifiques au service du développement durable
-              et endogène.
+            <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
+              Former des cadres compétents, produire et diffuser des connaissances
+              scientifiques au service du développement durable et endogène.
             </p>
           </div>
           <div className="objective-card" style={{ borderTop: "3px solid var(--gold)" }}>
             <div className="objective-icon">🔬</div>
             <h4>Recherche</h4>
-            <p
-              style={{
-                fontSize: 14,
-                color: "var(--muted)",
-                lineHeight: 1.6,
-                marginTop: 8,
-              }}
-            >
-              Promouvoir une recherche ancrée dans les réalités locales,
-              contributive à la souveraineté scientifique, alimentaire,
-              sanitaire et culturelle de l'Afrique.
+            <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
+              Promouvoir une recherche ancrée dans les réalités locales, contributive à la
+              souveraineté scientifique, alimentaire, sanitaire et culturelle de l'Afrique.
             </p>
           </div>
           <div className="objective-card" style={{ borderTop: "3px solid var(--red)" }}>
             <div className="objective-icon">🤝</div>
             <h4>Ouverture</h4>
-            <p
-              style={{
-                fontSize: 14,
-                color: "var(--muted)",
-                lineHeight: 1.6,
-                marginTop: 8,
-              }}
-            >
-              Bâtir des partenariats académiques nationaux et internationaux
-              et accompagner le tissu socio-économique régional.
+            <p style={{ fontSize: 14, color: "var(--muted)", lineHeight: 1.6, marginTop: 8 }}>
+              Bâtir des partenariats académiques nationaux et internationaux et accompagner
+              le tissu socio-économique régional.
             </p>
+          </div>
+        </div>
+
+        <div
+          style={{
+            textAlign: "center",
+            marginTop: 40,
+            fontSize: 14,
+            color: "var(--muted)",
+          }}
+        >
+          <p style={{ marginBottom: 12 }}>
+            Au-delà de sa mission académique, l'université valorise la vie culturelle et
+            sportive à travers diverses activités qui renforcent la cohésion et l'épanouissement
+            de sa communauté.
+          </p>
+          <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
+            <a
+              href="https://ulbo.gov.bf/ulbo-ufr-ss-presentation/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+              style={{ fontSize: 13 }}
+            >
+              🔗 Présentation UFR-SS
+            </a>
+            <a
+              href="https://ulbo.gov.bf/easy-customizable/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+              style={{ fontSize: 13 }}
+            >
+              🔗 Site officiel ULBO
+            </a>
           </div>
         </div>
       </div>
