@@ -194,7 +194,7 @@ function Home() {
         className="section"
         style={{ background: "linear-gradient(180deg, transparent, rgba(0,0,0,.02))" }}
       >
-        <div className="section-label">L'Université</div>
+        <div className="section-label">Présentation de l'Université</div>
         <h2 className="section-title">
           Université Lédéa Bernard OUÉDRAOGO (ULBO)
         </h2>
