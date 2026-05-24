@@ -311,7 +311,7 @@ function Home() {
               href="https://ulbo.gov.bf/ulbo-ufr-ss-presentation/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-outline"
+              className="btn-primary"
               style={{ fontSize: 13 }}
             >
               🔗 Présentation UFR-SS
@@ -320,7 +320,7 @@ function Home() {
               href="https://ulbo.gov.bf/easy-customizable/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-outline"
+              className="btn-primary"
               style={{ fontSize: 13 }}
             >
               🔗 Site officiel ULBO
