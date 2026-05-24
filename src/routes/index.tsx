@@ -308,6 +308,15 @@ function Home() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
+              href="https://ulbo.gov.bf/presentation-ufr-st/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+              style={{ fontSize: 13 }}
+            >
+              🔗 Présentation UFR-ST
+            </a>
+            <a
               href="https://ulbo.gov.bf/ulbo-ufr-ss-presentation/"
               target="_blank"
               rel="noopener noreferrer"
@@ -315,6 +324,15 @@ function Home() {
               style={{ fontSize: 13 }}
             >
               🔗 Présentation UFR-SS
+            </a>
+            <a
+              href="https://ulbo.gov.bf/mission-ifpm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+              style={{ fontSize: 13 }}
+            >
+              🔗 Présentation UFPM
             </a>
             <a
               href="https://ulbo.gov.bf/easy-customizable/"
