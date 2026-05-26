@@ -4,8 +4,8 @@ export const Route = createFileRoute("/soumission")({ component: Soumission });
 
 const timeline = [
   ["15 Mai 2026", "🚀 Lancement officiel de l'appel à communications"],
-  ["15 Septembre 2026", "📤 Date limite de soumission des communications"],
-  ["30 Septembre 2026", "📬 Notification d'acceptation aux auteurs"],
+  ["10 Septembre 2026", "📤 Date limite de soumission des communications"],
+  ["05 Octobre 2026", "📬 Notification d'acceptation aux auteurs"],
   ["10 Octobre 2026", "✏️ Retour des corrections et versions finales"],
   ["30 Octobre 2026", "💳 Date limite de paiement des frais de participation"],
   ["11 Novembre 2026", "📋 Publication du programme provisoire"],
