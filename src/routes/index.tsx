@@ -34,8 +34,8 @@ function Home() {
 
   const dates = [
     ["Lancement officiel", "15 Mai 2026"],
-    ["Limite de soumission", "15 Septembre 2026"],
-    ["Notification d'acceptation", "30 Septembre 2026"],
+    ["Limite de soumission", "10 Septembre 2026"],
+    ["Notification d'acceptation", "05 Octobre 2026"],
     ["Retour des corrections", "10 Octobre 2026"],
     ["Limite de paiement", "30 Octobre 2026"],
   ];
