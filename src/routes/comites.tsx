@@ -14,43 +14,100 @@ export const Route = createFileRoute("/comites")({
 
 type Member = { name: string; role: string; detail: string };
 
-const organisation: Member[] = [
-  { name: "Dr Emmanuel OUEDRAOGO", role: "Président du Comité d'Organisation", detail: "Maître de Conférences (MC) — Coordination générale de l'organisation du séminaire" },
-  { name: "Dr Boukary BORO", role: "Vice-président du Comité d'Organisation", detail: "Maître de Conférences (MC)" },
-  { name: "Dr Bila Adophe KYELEM", role: "Membre", detail: "Maître de Conférences (MC)" },
-  { name: "Dr Issa OUEDRAOGO", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Nongaba SAWADOGO", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Corneille BAKOUAN", role: "Membre", detail: "" },
+const coordination: Member[] = [
+  { name: "Pr Adama OUEDA", role: "Coordinateur des Journées Scientifiques", detail: "Président de l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Emmanuel OUEDRAOGO", role: "Président du Comité d'Organisation", detail: "VP-RCU de l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Boukary BORO", role: "Vice-président du Comité d'Organisation", detail: "Directeur de l'IFPM" },
+];
+
+const membresOrg: Member[] = [
+  { name: "Dr Bila Adophe KYELEM", role: "Membre", detail: "" },
+  { name: "Dr Issa OUEDRAOGO", role: "Membre", detail: "" },
+  { name: "Dr Nongaba SAWADOGO", role: "Membre", detail: "" },
   { name: "Dr Salifou NIKIEMA", role: "Membre", detail: "" },
-  { name: "Dr Titiaté NOUFE", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Appolinaire TOUGMA", role: "Membre", detail: "" },
+  { name: "Dr Titiaté NOUFE", role: "Membre", detail: "" },
   { name: "Dr Stanislas SANFO", role: "Membre", detail: "" },
   { name: "Dr Ilassa OUEDRAOGO", role: "Membre", detail: "" },
   { name: "Dr Harouna WASONGMA", role: "Membre", detail: "" },
   { name: "Dr Issa OUEDRAOGO", role: "Membre", detail: "" },
+  { name: "Dr Salifou SANOGO", role: "Membre", detail: "" },
+  { name: "Dr Rymyalegdo KIEBRE", role: "Membre", detail: "" },
+  { name: "Dr Wendgoudi Appolinaire BEYI", role: "Membre", detail: "" },
+  { name: "Dr Serge Stéphane KY", role: "Membre", detail: "" },
+  { name: "Dr Moumoun DJASSIBO WOBA", role: "Membre", detail: "" },
+  { name: "M. Madi KOMI", role: "Membre", detail: "" },
+  { name: "M. Jean NASSA", role: "Membre", detail: "" },
+  { name: "M. Sahidou KABORE", role: "Membre", detail: "" },
+  { name: "M. Daouda SANON", role: "Membre", detail: "" },
+];
+
+const secretariat: Member[] = [
+  { name: "Dr Corneille BAKOUAN", role: "Secrétariat", detail: "" },
+  { name: "Dr Appolinaire TOUGMA", role: "Secrétariat", detail: "" },
+  { name: "Dr Pauline W ZONGO", role: "Secrétariat", detail: "" },
+  { name: "Dr Habi KY", role: "Secrétariat", detail: "" },
+  { name: "M. Babi ZIDA", role: "Secrétariat", detail: "" },
+  { name: "M. Youba DAO", role: "Secrétariat", detail: "" },
+];
+
+const protocole: Member[] = [
+  { name: "Dr Gabiliga Noël THIOBIANO", role: "Commission protocole et accueil", detail: "" },
+  { name: "M. Adramane TALL", role: "Commission protocole et accueil", detail: "" },
+  { name: "Dr Tiorowe Nadine SOMDA/ILBOUDO", role: "Commission protocole et accueil", detail: "" },
+  { name: "Dr Wendyam Joëlle Raymonde YOUGBARE", role: "Commission protocole et accueil", detail: "" },
+];
+
+const transport: Member[] = [
+  { name: "M. Kader Ben OUEDRAOGO", role: "Commission transport", detail: "" },
+  { name: "M. Lamine OUEDRAOGO", role: "Commission transport", detail: "" },
+  { name: "M. Sompagnindi BOULOU", role: "Commission transport", detail: "" },
+];
+
+const sante: Member[] = [
+  { name: "Dr Nongaba SAWADOGO", role: "Commission santé", detail: "" },
+  { name: "Dr Camille SOMPOUGDOU", role: "Commission santé", detail: "" },
+  { name: "Abdourahmane OUANGRE", role: "Commission santé", detail: "" },
 ];
 
 const scientifique: Member[] = [
-  { name: "Pr Souleymane OUEDRAOGO", role: "Président du Comité Scientifique", detail: "Supervision scientifique du séminaire" },
-  { name: "Dr W. Olivier SAWADOGO", role: "Vice-président du Comité Scientifique", detail: "Maître de Conférences (MC)" },
-  { name: "Dr Bila Adophe KYELEM", role: "Membre", detail: "Maître de Conférences (MC)" },
-  { name: "Dr Emmanuel OUEDRAOGO", role: "Membre", detail: "Maître de Conférences (MC)" },
-  { name: "Pr Adama OUEDA", role: "Membre", detail: "" },
-  { name: "Pr Antoine BERE", role: "Membre", detail: "" },
-  { name: "Pr Laurent T. OUEDRAOGO", role: "Membre", detail: "" },
-  { name: "Pr Abdoulaye OUEDRAOGO", role: "Membre", detail: "" },
-  { name: "Dr Issa OUEDRAOGO", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Zanga OUATTARA", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Nongaba SAWADOGO", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Pr André Marie SOUBEIGA", role: "Membre", detail: "" },
-  { name: "Dr Corneille BAKOUAN", role: "Membre", detail: "" },
-  { name: "Dr Salifou NIKIEMA", role: "Membre", detail: "" },
-  { name: "Dr Titiaté NOUFE", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Boukary BORO", role: "Membre", detail: "Maître de Conférences (MC)" },
-  { name: "Dr Stéphane KY", role: "Membre", detail: "Maître de Conférences Agrégé (MCA)" },
-  { name: "Dr Appolinaire TOUGMA", role: "Membre", detail: "" },
-  { name: "Dr Stanislas SANFO", role: "Membre", detail: "" },
-  { name: "Dr Brahima SORGHO", role: "Membre", detail: "Maître de Conférences (MC)" },
+  { name: "Pr Souleymane OUEDRAOGO", role: "Président du Comité Scientifique", detail: "Professeur Titulaire à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr W. Olivier SAWADOGO", role: "Vice-président du Comité Scientifique", detail: "Maître de Conférences à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Pr Adama OUEDA", role: "Membre", detail: "Professeur Titulaire à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Bila Adophe KYELEM", role: "Membre", detail: "Maître de Conférences à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Emmanuel OUEDRAOGO", role: "Membre", detail: "Maître de Conférences à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Pr Antoine BERE", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Pr Laurent T. OUEDRAOGO", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Pr Abdoulaye OUEDRAOGO", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Dr Issa OUEDRAOGO", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr ZANGA OUATTARA", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Nongoba SAWADOGO", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Pr André Marie SOUBEIGA", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Dr Corneille BAKOUAN", role: "Membre", detail: "Maître assistant à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Salifou NIKIEMA", role: "Membre", detail: "Maître assistant à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Tiatité NOUFE", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Abdul Aziz Wendkuni OUANDAOGO", role: "Membre", detail: "Maître assistant à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Tahirou SANOU", role: "Membre", detail: "Maître assistant à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Boukary BORO", role: "Membre", detail: "Maître de Conférences à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Stéphane KY", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Stanislas SANFO", role: "Membre", detail: "Maître assistant à l'Université Lédéa Bernard OUEDRAOGO" },
+  { name: "Dr Brahima SORGHO", role: "Membre", detail: "Maître de Conférences à l'Université Joseph KI-ZERBO" },
+  { name: "Dr Moustapha SAWADOGO", role: "Membre", detail: "Maître de Conférences à l'Université Joseph KI-ZERBO" },
+  { name: "Dr Moussa OUEDRAOGO", role: "Membre", detail: "Maître de Conférences à l'Université Nazi BONI" },
+  { name: "Dr Soumaila GANSORE", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Joseph KI-ZERBO" },
+  { name: "Dr Antoine YERBANGA", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Thomas SANKARA" },
+  { name: "Dr Issa DIANDA", role: "Membre", detail: "Maître de Conférences Agrégé à l'Université Nazi BONI" },
+  { name: "Pr Nourdine ALAA", role: "Membre", detail: "Professeur Titulaire à l'Université Cadi Ayyad" },
+  { name: "Pr Said RAGHAY", role: "Membre", detail: "Professeur Titulaire à l'Université Cadi Ayyad" },
+  { name: "Pr Issa ZABSONRE", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Pr Issa KABORE", role: "Membre", detail: "Professeur Titulaire à l'Université NAZI BONI" },
+  { name: "Pr Arouna OUEDRAOGO", role: "Membre", detail: "Professeur Titulaire à l'Université Norbert ZONGO" },
+  { name: "Pr Sié KAM", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Pr Adamah MESSAN", role: "Membre", detail: "Professeur Titulaire au 2IE" },
+  { name: "Pr Ousmane COULIBALY", role: "Membre", detail: "Professeur Titulaire à l'Université Joseph KI-ZERBO" },
+  { name: "Dr Boureima DIANDA", role: "Membre", detail: "Maître de Recherche à l'IRSAT/CNRST" },
+  { name: "Dr Ali DOUMOUNIA", role: "Membre", detail: "Maître de Conférences à l'ENS" },
+  { name: "Dr Germain OUEDRAOGO", role: "Membre", detail: "Maître de Conférences à l'Université Yembila Abdoulaye TOGUEYENI" },
+  { name: "Dr Kossi B. IMBGA", role: "Membre", detail: "Maître de Conférences à l'Université Norbert ZONGO" },
 ];
 
 function initials(name: string) {
@@ -65,7 +122,7 @@ function initials(name: string) {
 }
 
 function MemberCard({ m, accent }: { m: Member; accent: string }) {
-  const isPresident = m.role.toLowerCase().includes("président");
+  const isPresident = m.role.toLowerCase().includes("président") || m.role.toLowerCase().includes("coordinateur");
   return (
     <div
       style={{
@@ -127,8 +184,8 @@ function Section({ title, subtitle, members, accent }: { title: string; subtitle
       </div>
       <p style={{ color: "var(--text-muted)", marginBottom: 24 }}>{subtitle}</p>
       <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
-        {members.map((m) => (
-          <MemberCard key={m.name} m={m} accent={accent} />
+        {members.map((m, i) => (
+          <MemberCard key={`${m.name}-${i}`} m={m} accent={accent} />
         ))}
       </div>
     </div>
@@ -145,9 +202,44 @@ function Comites() {
       </p>
 
       <Section
-        title="Comité d'Organisation"
-        subtitle="Coordination et logistique du séminaire"
-        members={organisation}
+        title="Cellule de coordination"
+        subtitle="Direction et supervision générale"
+        members={coordination}
+        accent="var(--green)"
+      />
+
+      <Section
+        title="Membres du Comité d'Organisation"
+        subtitle="Membres actifs du comité"
+        members={membresOrg}
+        accent="var(--green)"
+      />
+
+      <Section
+        title="Secrétariat"
+        subtitle="Gestion administrative et logistique"
+        members={secretariat}
+        accent="var(--green)"
+      />
+
+      <Section
+        title="Protocole et accueil"
+        subtitle="Commission chargée du protocole et de l'accueil"
+        members={protocole}
+        accent="var(--green)"
+      />
+
+      <Section
+        title="Transport"
+        subtitle="Commission chargée des déplacements"
+        members={transport}
+        accent="var(--green)"
+      />
+
+      <Section
+        title="Santé"
+        subtitle="Commission chargée des questions de santé"
+        members={sante}
         accent="var(--green)"
       />
 
