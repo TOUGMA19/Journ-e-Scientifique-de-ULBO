@@ -122,7 +122,7 @@ function Soumission() {
                 <li>Téléversez le fichier au format PDF</li>
               </ul>
             </div>
-            <a href="https://easychair.org/my/conference?conf=jsulbo2026" target="_blank" rel="noreferrer" className="btn-primary">
+            <a href="https://easychair.org" target="_blank" rel="noreferrer" className="btn-primary">
               🔗 Accéder à EasyChair
             </a>
           </div>
